@@ -14,6 +14,6 @@
 
 case "$HSH_ACTION" in
 	clone|bundle-out)
-		pk install shellcheck || true
+	    yes | pk install shellcheck || true
 		;;
 esac
