@@ -14,6 +14,6 @@
 
 case "$HSH_ACTION" in
 	clone|bundle-out)
-	    "$HSH_ROOT/bin/brew" install shellcheck || true
+	    yes | pk install shellcheck || true
 		;;
 esac
